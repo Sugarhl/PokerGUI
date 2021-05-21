@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Buttons\CardButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Buttons\ChoiceButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Boards\HandBoard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Boards\SuitBoard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Buttons\SuitButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Boards\TableBoard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserRange.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Buttons\CardButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Buttons\ChoiceButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Boards\HandBoard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Boards\SuitBoard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Buttons\SuitButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Boards\TableBoard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserRange.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WGtQtzDy569R/+3pE1q0sDJqat4T8Bc6DAH2IekM5y4LTHjIQuznctt/NSslUhUdQS9+ugyehJq57alMD3VkPQ==",
+  "success": true,
+  "projectFilePath": "D:\\PokerView\\PokerGUI\\UI\\UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sugar\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\sugar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}

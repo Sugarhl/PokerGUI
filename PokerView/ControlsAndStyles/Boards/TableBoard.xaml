@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="ControlsAndStyles.TableBoard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ControlsAndStyles"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="400">
+
+
+    <Grid  x:Name="grid" local:CardButton.Checked="Check" local:CardButton.Unchecked="Uncheck"  >
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <local:CardButton Grid.Column="0" Grid.Row="0" Text="A ♣" CardCode="0" MyBackground="#8DB475"/>
+        <local:CardButton Grid.Column="0" Grid.Row="1" Text="K ♣" CardCode="1" MyBackground="#8DB475"/>
+        <local:CardButton Grid.Column="0" Grid.Row="2" Text="Q ♣" CardCode="2" MyBackground="#8DB475"/>
+        <local:CardButton Grid.Column="0" Grid.Row="3" Text="J ♣" CardCode="3" MyBackground="#8DB475"/>
+        <local:CardButton Grid.Column="0" Grid.Row="4" Text="T ♣" CardCode="4" MyBackground="#8DB475"/>
+        <local:CardButton Grid.Column="0" Grid.Row="5" Text="9 ♣" CardCode="5" MyBackground="#8DB475"/>
+        <local:CardButton Grid.Column="0" Grid.Row="6" Text="8 ♣" CardCode="6" MyBackground="#8DB475"/>
+        <local:CardButton Grid.Column="0" Grid.Row="7" Text="7 ♣" CardCode="7" MyBackground="#8DB475"/>
+        <local:CardButton Grid.Column="0" Grid.Row="8" Text="6 ♣" CardCode="8" MyBackground="#8DB475"/>
+
+        <local:CardButton Grid.Column="1" Grid.Row="0" Text="A ♦" CardCode="9" MyBackground="#F37B60"/>
+        <local:CardButton Grid.Column="1" Grid.Row="1" Text="K ♦" CardCode="10" MyBackground="#F37B60"/>
+        <local:CardButton Grid.Column="1" Grid.Row="2" Text="Q ♦" CardCode="11" MyBackground="#F37B60"/>
+        <local:CardButton Grid.Column="1" Grid.Row="3" Text="J ♦" CardCode="12" MyBackground="#F37B60"/>
+        <local:CardButton Grid.Column="1" Grid.Row="4" Text="T ♦" CardCode="13" MyBackground="#F37B60"/>
+        <local:CardButton Grid.Column="1" Grid.Row="5" Text="9 ♦" CardCode="14" MyBackground="#F37B60"/>
+        <local:CardButton Grid.Column="1" Grid.Row="6" Text="8 ♦" CardCode="15" MyBackground="#F37B60"/>
+        <local:CardButton Grid.Column="1" Grid.Row="7" Text="7 ♦" CardCode="16" MyBackground="#F37B60"/>
+        <local:CardButton Grid.Column="1" Grid.Row="8" Text="6 ♦" CardCode="17" MyBackground="#F37B60"/>
+
+        <local:CardButton Grid.Column="2" Grid.Row="0" Text="A ♥" CardCode="18" MyBackground="#E856AD"/>
+        <local:CardButton Grid.Column="2" Grid.Row="1" Text="K ♥" CardCode="19" MyBackground="#E856AD"/>
+        <local:CardButton Grid.Column="2" Grid.Row="2" Text="Q ♥" CardCode="20" MyBackground="#E856AD"/>
+        <local:CardButton Grid.Column="2" Grid.Row="3" Text="J ♥" CardCode="21" MyBackground="#E856AD"/>
+        <local:CardButton Grid.Column="2" Grid.Row="4" Text="T ♥" CardCode="22" MyBackground="#E856AD"/>
+        <local:CardButton Grid.Column="2" Grid.Row="5" Text="9 ♥" CardCode="23" MyBackground="#E856AD"/>
+        <local:CardButton Grid.Column="2" Grid.Row="6" Text="8 ♥" CardCode="24" MyBackground="#E856AD"/>
+        <local:CardButton Grid.Column="2" Grid.Row="7" Text="7 ♥" CardCode="25" MyBackground="#E856AD"/>
+        <local:CardButton Grid.Column="2" Grid.Row="8" Text="6 ♥" CardCode="26" MyBackground="#E856AD"/>
+
+        <local:CardButton Grid.Column="3" Grid.Row="0" Text="A ♠" CardCode="27" MyBackground="#5B8AE4"/>
+        <local:CardButton Grid.Column="3" Grid.Row="1" Text="K ♠" CardCode="28" MyBackground="#5B8AE4"/>
+        <local:CardButton Grid.Column="3" Grid.Row="2" Text="Q ♠" CardCode="29" MyBackground="#5B8AE4"/>
+        <local:CardButton Grid.Column="3" Grid.Row="3" Text="J ♠" CardCode="30" MyBackground="#5B8AE4"/>
+        <local:CardButton Grid.Column="3" Grid.Row="4" Text="T ♠" CardCode="31" MyBackground="#5B8AE4"/>
+        <local:CardButton Grid.Column="3" Grid.Row="5" Text="9 ♠" CardCode="32" MyBackground="#5B8AE4"/>
+        <local:CardButton Grid.Column="3" Grid.Row="6" Text="8 ♠" CardCode="33" MyBackground="#5B8AE4"/>
+        <local:CardButton Grid.Column="3" Grid.Row="7" Text="7 ♠" CardCode="34" MyBackground="#5B8AE4"/>
+        <local:CardButton Grid.Column="3" Grid.Row="8" Text="6 ♠" CardCode="35" MyBackground="#5B8AE4"/>
+
+    </Grid>
+
+</UserControl>
